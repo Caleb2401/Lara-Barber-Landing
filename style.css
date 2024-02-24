@@ -1,0 +1,611 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    background: black;
+    width: 100%;
+    height: 831px;
+}
+
+.imagen-fondo {
+    display: block;
+    opacity: 0.3;
+    width: 100%;
+    height: 831px;
+}
+
+.logoprincipal {
+    width: 150px; 
+    height: 150px;
+    display: inline;
+    position: absolute;
+    top: 45px;
+    left: 65px;
+}
+
+nav {
+    position: absolute;
+    top: 108px;
+    right: 77px;
+}
+
+li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: #F62727;
+    text-decoration: underline;
+}
+
+.inicionav {
+    color: #F62727;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    margin: 40px;
+}
+
+.menu {
+    font-size: 24px;
+    margin: 40px;
+    color: white;
+}
+
+.nombre-barberia {
+    color: #F62727;
+    font-family: "jost", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    position: absolute;
+    top: 328px;
+    left: 115px;
+}
+
+.slogan {
+    color: white;
+    font-size: 32px;
+    font-family: "Poppins" sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 391px;
+    left: 115px;
+}
+
+.parrafo1 {
+    color: #9A9A9A;
+    font-size: 21px;
+    font-family: "Poppins" sans-serif;
+    position: absolute;
+    top: 471px;
+    left: 115px;
+}
+
+.logo-grande {
+    width: 700px; 
+    height: 700px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.apartado-servicios {
+    background: white;
+    width: 100%;
+    height: 676px;
+}
+
+.fondo-servicios {
+    display: block;
+    width: 100%;
+    height: 676px;
+}
+
+.servicios {
+   font-size: 40px;
+   font-weight: bold;
+   font-family: "jost", sans-serif;
+   position: absolute;
+   top: 867px;
+   left: 45%;
+}
+
+.corte-de-cabello {
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+    transition: 1s all;
+}
+
+.corte-de-cabello:hover {
+    transform: scale(1.1);
+}
+
+.corte {
+    padding: 18px;
+    width: 213px;
+    height: 291px;
+}
+
+.p-corte {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Poppins" sans-serif;
+}
+
+.p-precio-corte {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Poppins" sans-serif;
+}
+
+.delineado-barba {
+    position: absolute;
+    top: 1000px;
+    left: 525px;
+    transition: 1s all;
+}
+
+.delineado-barba:hover {
+    transform: scale(1.1); 
+}
+
+.barba {
+    padding: 18px;
+    width: 213px;
+    height: 291px;
+}
+
+.p-barba {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Poppins" sans-serif;
+}
+
+.p-precio-barba {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Poppins" sans-serif;
+}
+
+.mascarilla {
+    position: absolute;
+    top: 1000px;
+    right: 525px;
+    transition: 1s all;
+}
+
+.mascarilla:hover {
+    transform: scale(1.1);
+}
+
+.img-mascarilla {
+    padding: 18px;
+    width: 213px;
+    height: 291px;
+}
+
+.p-mascarilla {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Poppins" sans-serif;
+}
+
+.p-precio-mascarilla {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Poppins" sans-serif;
+}
+
+.delineado-ceja {
+    position: absolute;
+    top: 1000px;
+    right: 100px;
+    transition: 1s all;
+}
+
+.delineado-ceja:hover {
+    transform: scale(1.1); 
+}
+
+.ceja {
+    padding: 18px;
+    width: 213px;
+    height: 291px;
+}
+
+.p-ceja {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Poppins" sans-serif;
+}
+
+.p-precio-ceja {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Poppins" sans-serif;
+}
+
+.apartado-conocenos {
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.fondo-conocenos {
+    display: block;
+    width: 100%;
+    height: 819px;
+    opacity: 0.1;
+}
+
+.conocenos {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "jost", sans-serif;
+    position: absolute;
+    top: 1550px;
+    left: 44%;
+}
+
+.pepo {
+    position: absolute;
+    top: 1650px;
+    left: 150px;
+    transition: 1s all;
+}
+
+.pepo:hover {
+    transform: scale(1.1); 
+}
+
+.img-pepo {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 7px #000000;
+}
+
+.p-pepo {
+    color: white;
+    padding-top: 37px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Post No Bills Colombo', sans-serif;
+}
+
+.p-tel-pepo {
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Pragati Narrow", sans-serif;
+}
+
+.ig-pepo {
+    padding-top: 39px;
+    position: absolute;
+    left: 60px;
+    color: white;
+}
+
+.wp-pepo {
+    padding-top: 39px;
+    position: absolute;
+    left: 150px;
+    color: white;
+}
+
+.pedro {
+    position: absolute;
+    top: 1650px;
+    left: 525px;
+    transition: 1s all;
+}
+
+.pedro:hover {
+    transform: scale(1.1); 
+}
+
+.img-pedro {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 7px #000000;
+}
+
+.p-pedro {
+    color: white;
+    padding-top: 37px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Post No Bills Colombo', sans-serif;
+}
+
+.p-tel-pedro {
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Pragati Narrow", sans-serif;
+}
+
+.wp-pedro {
+    padding-top: 39px;
+    position: absolute;
+    left: 100px;
+    color: white;
+}
+
+.polo {
+    position: absolute;
+    top: 1650px;
+    right: 525px;
+    transition: 1s all;
+}
+
+.polo:hover {
+    transform: scale(1.1); 
+}
+
+.img-polo {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 7px #000000;
+}
+
+.p-polo {
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Post No Bills Colombo', sans-serif;
+}
+
+.p-tel-polo {
+    color: white;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Pragati Narrow", sans-serif;
+}
+
+.fb-polo {
+    padding-top: 39px;
+    position: absolute;
+    left: 40px;
+    color: white;
+}
+
+.ig-polo {
+    padding-top: 39px;
+    position: absolute;
+    left: 100px;
+    color: white;
+}
+
+.wp-polo {
+    padding-top: 39px;
+    position: absolute;
+    left: 160px;
+    color: white;
+}
+
+.barbermex {
+    color: white;
+    padding-top: 90px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Post No Bills Colombo', sans-serif;
+}
+
+.fb-barbermex {
+    padding-top: 10px;
+    position: absolute;
+    left: 40px;
+    color: white;
+}
+
+.ig-barbermex {
+    padding-top: 10px;
+    position: absolute;
+    left: 100px;
+    color: white;
+}
+
+.tik-barbermex {
+    padding-top: 10px;
+    position: absolute;
+    left: 160px;
+    color: white;
+}
+
+.isaac {
+    position: absolute;
+    top: 1650px;
+    right: 150px;
+    transition: 1s all;
+}
+
+.isaac:hover {
+    transform: scale(1.1); 
+}
+
+.img-isaac {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 7px #000000;
+}
+
+.p-isaac {
+    color: white;
+    padding-top: 37px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Post No Bills Colombo', sans-serif;
+}
+
+.p-tel-isaac {
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Pragati Narrow", sans-serif;
+}
+
+.ig-isaac {
+    padding-top: 39px;
+    position: absolute;
+    left: 60px;
+    color: white;
+}
+
+.wp-isaac {
+    padding-top: 39px;
+    position: absolute;
+    left: 150px;
+    color: white;
+}
+
+.apartado-ubicacion {
+    display: block;
+    width: 100%;
+    height: 900px;
+    background: white;
+}
+
+.fondo-ubicacion {
+    display: block;
+    width: 100%;
+    height: 900px;
+}
+
+
+.ubicacion {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "jost", sans-serif;
+    position: absolute;
+    top: 2360px;
+    left: 44%;
+}
+
+.mapa-barber {
+    position: absolute;
+    top: 2500px;
+    left: 200px;
+}
+
+.direccion {
+    color: black;
+    font-size: 20px;
+    font-family: "jost", sans-serif;
+    position: absolute;
+    top: 2950px;
+    left: 480px;
+}
+
+.horario {
+    position: absolute;
+    top: 3000px;
+    left: 750px;
+}
+
+.p-horario {
+    font-size: 24px;
+    font-family: "jost", sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #F62727;
+}
+
+.p-dias {
+    font-size: 24px;
+    font-family: "jost", sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.p-horas {
+    font-size: 24px;
+    font-family: "jost", sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.p-domi {
+    font-size: 24px;
+    font-family: "jost", sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.p-hora-dom {
+    font-size: 24px;
+    font-family: "jost", sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer {
+    background: black;
+    width: 100%;
+    height: 500px;
+}
+
+.imagen-fondo-footer {
+    display: block;
+    opacity: 0.3;
+    width: 100%;
+    height: 500px;
+}
+
+.logofooter {
+    position: absolute;
+    top: 3200px;
+    left: 650px;
+    width: 400px; 
+    height: 400px;
+}
+
+.copyright {
+    color: white;
+    font-size: 15px;
+    font-family: "jost", sans-serif;
+    position: absolute;
+    top: 3550px;
+    left: 720px;
+}
+
+.fb-lara {
+    position: absolute;
+    top: 3600px;
+    left: 785px;
+    color: white;
+}
+
+.ig-lara {
+    position: absolute;
+    top: 3600px;
+    left: 875px;
+    color: white;
+}
